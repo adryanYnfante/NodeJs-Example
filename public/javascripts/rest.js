@@ -15,7 +15,7 @@ fetch('http://localhost:3000/users', {
 });
 
 const restApi = async () => {
-    const data = await fetch("http://localhost:3000/users/1", {
+    const data = await fetch("http://localhost:3000/users", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
